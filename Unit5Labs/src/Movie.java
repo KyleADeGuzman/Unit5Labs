@@ -1,19 +1,19 @@
 //By: Kyle DeGuzman
 public class Movie {
-	 private String title;
-	 private String studio;
-	 private String rating;
+	 private String titleofmov;
+	 private String studioofmov;
+	 private String ratingofmov;
 	 
 	 public Movie(String t, String s, String r) {
-		 title = t;
-		 studio = s;
-		 rating = r;
+		 titleofmov = t;
+		 studioofmov = s;
+		 ratingofmov = r;
 		}
 	 
 	 public Movie (String t, String s) {
-		 title = t;
-		 studio = s;
-		 rating = "PG";
+		  titleofmov = t;
+		 studioofmov = s;
+		 ratingofmov = "PG";
 		}
 	 
 	 public static Movie[] getPG(Movie[] mov) {
