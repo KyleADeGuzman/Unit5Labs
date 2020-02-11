@@ -1,17 +1,17 @@
 //By: Kyle DeGuzman
 public class Holiday {
 	
-	 private String name;
-	 private int day;
-	 private String month;
+	 private String nameofholiday;
+	 private int dayofholiday;
+	 private String monthofholiday;
 
 	 public Holiday(String n, int d, String m) {
-		 name = n;
-		 day = d;
-		 month = m;
+		 nameofholdiday = n;
+		 dayofholiday = d;
+		 monthofholiday = m;
 	 }
 		 public boolean inSameMonth(Holiday mon){
-			 return this.month.equals(mon.month);
+			 return this.month.equals(mon.monthofholiday);
 		 }
 		 
 			 public static double avgDate(Holiday[] mon) {
